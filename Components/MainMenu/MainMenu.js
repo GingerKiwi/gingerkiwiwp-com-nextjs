@@ -55,15 +55,15 @@ export const MainMenu = ( { items } ) => {
                             { !!item.subMenuItems?.length && (
                                 <div 
                                     className="
-                                        // group-hover:block 
-                                        // hidden 
-                                        // absolute
-                                        // right-0
-                                        // text-right
-                                        // top-full
+                                        group-hover:block 
+                                        hidden 
+                                        absolute
+                                        right-0
+                                        text-right
+                                        top-full
                                         -mt-3
-                                        // w-full
-                                        // bg-slate-800
+                                        w-full
+                                        bg-slate-800
                                         text-white
                                         
                                     ">
