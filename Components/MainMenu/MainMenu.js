@@ -80,9 +80,9 @@ export const MainMenu = ( { items, callToActionLabel, callToActionDestination } 
                                             { subMenuItem.label }
                                         </Link>
                                     ))}
-                                    </div>
+                                </div>
                             )}
-                        </div>
+                    </div>
                 ))}
                 <div className="ml-3 my-auto ">
                     <Link 
@@ -105,6 +105,7 @@ export const MainMenu = ( { items, callToActionLabel, callToActionDestination } 
                     </Link>
                 </div>
             </div>
+            
         </nav>
     );
 };
