@@ -1,5 +1,6 @@
 import { FaHouseUser, FaHeart } from "react-icons/fa";
 import Link from 'next/link';
+import { ButtonLink } from "Components/ButtonLink";
 
 export const MainMenu = ( { items, callToActionLabel, callToActionDestination } ) => {
     console.log("MAIN MENU: ", items);
@@ -85,24 +86,7 @@ export const MainMenu = ( { items, callToActionLabel, callToActionDestination } 
                     </div>
                 ))}
                 <div className="ml-3 my-auto ">
-                    <Link 
-                        className="
-                        bg-pink-500
-                        hover:bg-pink-700
-                        inline-block
-                        my-2
-                        px-4
-                        py-2
-                        uppercase
-                        rounded-md
-                        cursor-pointer
-                        font-bold
-                        text-white
-                        "
-                        href={ callToActionDestination }
-                    >
-                        { callToActionLabel }
-                    </Link>
+                    <ButtonLink destination={ callToActionDestination } label={ callToActionLabel }/>
                 </div>
             </div>
             
